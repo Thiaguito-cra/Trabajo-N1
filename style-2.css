@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre las secciones */
+}
+
+section {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.im-cont {
+    width: 100px; /* Tamaño de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.div-cont {
+    max-width: 600px; /* Limita el ancho del contenido */
+}
+
+h2 {
+    margin: 0; /* Elimina el margen superior del título */
+}
+
+p {
+    margin: 5px 0 0 0; /* Espacio entre el párrafo y el título */
+}
